@@ -1,0 +1,16 @@
+{
+  "name": "@rumo-medico/meta-tracking",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Meta Pixel + Conversions API com deduplicação event_id para Rumo Médico",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
